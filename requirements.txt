@@ -1,0 +1,4 @@
+oauth2client
+PyOpenSSL
+gspread
+python-dotenv
