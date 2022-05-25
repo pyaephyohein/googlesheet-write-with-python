@@ -16,8 +16,6 @@ sheet_name = os.getenv('sheet_name')
 
 
 fhc = json_data['data']['result'][0]['value'][1]
-print(fhc)
-
 
 
 googleapis = [
@@ -34,5 +32,4 @@ date_today = str(raw_date_today)
 hour_time = time.strftime('%H:%M:%S')
 
 sheet_select.append_row([date_today, hour_time, fhc])
-
 
